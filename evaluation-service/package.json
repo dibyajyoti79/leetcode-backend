@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "bullmq": "^5.58.2",
+    "dockerode": "^4.0.7",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
     "ioredis": "^5.7.0",

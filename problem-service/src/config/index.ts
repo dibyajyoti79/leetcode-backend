@@ -14,6 +14,6 @@ function loadEnv() {
 loadEnv();
 
 export const serverConfig: ServerConfig = {
-  PORT: Number(process.env.PORT) || 3001,
-  DB_URI: process.env.DB_URI || "mongodb://localhost:27017/leetcode",
+  PORT: Number(process.env.PORT) || 8000,
+  DB_URI: process.env.DB_URI || "mongodb://localhost:27017/lc_problem_db",
 };
